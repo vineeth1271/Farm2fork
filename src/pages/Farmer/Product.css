@@ -1,0 +1,63 @@
+.products-page {
+    background-color: white; /* Light cream background */
+    padding: 20px;
+  }
+  
+  .text-center {
+    color: #4caf50; /* Green color for headings */
+    margin-bottom: 20px;
+  }
+  
+  .products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the products */
+    gap: 30px;
+  }
+  
+  .product-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .product-card {
+    width: 16rem; /* Smaller width for product cards */
+    height: 24rem; /* Fixed height for uniformity */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column; /* Ensure the card content stacks vertically */
+    justify-content: space-between; /* Space out the content evenly */
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-img-top {
+    height: 180px; /* Fixed height */
+    object-fit: contain; /* Ensure the image fits within the container */
+    width: 100%; /* Ensure image fits the width */
+    border-bottom: 1px solid #ccc; /* Add a border to separate the image */
+  }
+  
+  .card-body {
+    padding: 15px;
+    flex: 1; /* Allow the body to take up available space */
+  }
+  
+  .card-title {
+    font-size: 1.1rem; /* Slightly smaller font size */
+    margin-bottom: 10px;
+    color: #3e4a61; /* Darker shade for titles */
+  }
+  
+  .card-text {
+    font-size: 0.9rem; /* Slightly smaller font size */
+    color: #606c81; /* Subtle text color */
+  }
+  
+  
